@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        {currentUser?.lists.tasks.id}
+        {currentUser?.lists.tasks.completed}
       </header>
     </div>
   );
